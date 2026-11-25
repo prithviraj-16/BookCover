@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Back Cover</title>
+  <style>
+    body { background: #2c3e50; font-family: Georgia, serif; display: flex; justify-content: center; padding: 30px; }
+    .cover { width: 420px; background: #fdf6e3; border: 6px solid #c0392b; border-radius: 6px; padding: 30px; box-shadow: 0 8px 20px rgba(0,0,0,0.5); text-align: center; }
+    .cover h1 { color: #c0392b; margin: 0 0 5px; font-size: 28px; }
+    .cover h3 { color: #555; font-style: italic; margin-top: 0; }
+    .summary { text-align: justify; line-height: 1.6; color: #333; }
+    .review { border-left: 4px solid #c0392b; margin: 20px 0; padding-left: 12px; font-style: italic; text-align: left; color: #444; }
+    .author img { width: 90px; height: 90px; border-radius: 50%; border: 3px solid #c0392b; object-fit: cover; }
+    .author p { font-size: 14px; color: #555; }
+    .footer { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; font-size: 14px; }
+    .footer img { width: 120px; }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <h1>The Silent Horizon</h1>
+    <h3>A journey beyond the known world</h3>
+
+    <p class="summary">
+      When young explorer Arjun discovers an old map hidden in his
+      grandfather's library, he sets out on a voyage that will test
+      his courage, his loyalty, and his belief in the impossible.
+    </p>
+
+    <div class="review">
+      "A gripping adventure that you cannot put down."<br>
+      <b>- The Daily Reader</b>
+    </div>
+
+    <div class="author">
+      <img src="https://i.pravatar.cc/150" alt="Author">
+      <p><b>About the Author</b><br>
+      Jane Doe is an award-winning novelist who lives in Chennai.</p>
+    </div>
+
+    <div class="footer">
+      <div>
+        <b>Price: ₹399</b><br>
+        ISBN: 978-1-23456-789-0
+      </div>
+      <img src="https://barcode.tec-it.com/barcode.ashx?data=978123456789&code=EAN13" alt="Barcode">
+    </div>
+  </div>
+</body>
+</html>
